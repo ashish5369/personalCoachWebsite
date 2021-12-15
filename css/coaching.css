@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 47px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #2e2c2b;
+  transition: 0.3s;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 0px 20px;
+  font-size: 14px;
+}
+nav ul li a:hover {
+  color: #bbb9b6;
+}
+.symbol {
+  display: flex;
+  letter-spacing: 0.283em;
+}
+
+#amber {
+  margin: 0px 20px 0px 0px;
+  font-weight: 100;
+  font-size: 33px;
+  color: #bfbcb9;
+}
+
+#nova {
+  color: #5f5f5f;
+  font-size: 33px;
+  font-weight: 100;
+}
+.nav-button {
+  /* padding: px; */
+}
+
+.nav-button button {
+  /* padding: 14px 37px; */
+  width: 17vw;
+  height: 5.5vh;
+  color: white;
+  background-color: #b9b4af;
+  border: none;
+  cursor: pointer;
+  box-sizing: content-box;
+  transition: 0.3s;
+}
+.nav-button button:hover {
+  letter-spacing: 2px;
+}
+a {
+  text-decoration: none;
+}
+#coaching a {
+  color: #bfbcb9;
+}
+
+/* --------------header----------------*/
+
+/* -------------------main------------- */
+
+.heading {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgb(0, 0, 0, 0.69)),
+    url("coaching-head.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 55vh;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading h2 {
+  color: white;
+  font-weight: 100;
+  font-size: 1em;
+  letter-spacing: 0.071em;
+}
+.heading h5 {
+  color: white;
+  font-size: 2.5rem;
+  letter-spacing: 0.053em;
+  font-weight: 900;
+}
+
+.discover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10%;
+  margin-top: 5%;
+}
+.discover h6 {
+  font-size: 37px;
+  font-weight: 100;
+  font-style: italic;
+  color: #434343;
+  text-align: center;
+}
+.discover p {
+  font-size: 15px;
+  font-weight: 100;
+  text-align: center;
+  font-style: italic;
+  color: #434343;
+  margin-top: 20px;
+  padding: 0 10%;
+}
+
+.help {
+  color: #8b8783;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 100;
+  font-style: normal;
+  margin: 3% 0;
+}
+
+.services1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 80vh;
+  margin: 0 1%;
+}
+.services1-img {
+  background-color: #dcd9d6;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+}
+
+.tilt-content1 {
+  color: #b6b2aa;
+  font-size: 63px;
+  letter-spacing: 0.177em;
+  font-weight: 900;
+  rotate: 90deg;
+  position: absolute;
+  display: flex;
+  margin-left: -10%;
+}
+
+.tilt-content2 {
+  color: #b6b2aa;
+  font-size: 63px;
+  letter-spacing: 0.177em;
+  font-weight: 900;
+  rotate: 90deg;
+  position: absolute;
+  display: flex;
+  margin-right: -30%;
+}
+
+.tilt-content3 {
+  color: #b6b2aa;
+  font-size: 63px;
+  letter-spacing: 0.177em;
+  font-weight: 900;
+  rotate: 90deg;
+  position: absolute;
+  display: flex;
+  margin-left: -8%;
+}
+
+.services1-img img {
+  margin-left: 25%;
+  /* height: max-content; */
+}
+.services1-content {
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+.services1-content h2 {
+  font-weight: 100;
+  font-size: 1.9em;
+  color: #434343;
+}
+.services1-content p {
+  color: #434343;
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 1.3;
+}
+.lin {
+  color: #a1a1a1;
+}
+
+.services1-content button {
+  border: none;
+  background-color: #b9b4af;
+  color: white;
+  font-size: 1em;
+  font-weight: 100;
+  width: 70%;
+  letter-spacing: 0.008em;
+  transition: 0.3s;
+  height: 7vh;
+}
+.services1-content a {
+  text-decoration: none;
+  color: white;
+}
+
+.services1-content button:hover {
+  letter-spacing: 0.106em;
+}
+
+.services2-img {
+  background-color: #dcd9d6;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services2-img img {
+  margin-left: -35%;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgb(0, 0, 0, 0.69)),
+    url("testimonials-coaching.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  /* backdrop-filter: ; */
+  opacity: 0.9;
+  flex-wrap: wrap;
+
+  padding: 70px;
+  flex-direction: column;
+  padding: 8% 10%;
+  color: white;
+}
+.testimonials-heading h2 {
+  font-family: scriptina;
+  font-size: 3.1em;
+  letter-spacing: 0.124em;
+  font-weight: 900;
+  color: #cac7c3;
+  line-height: 1.4;
+  text-align: center;
+}
+.testimonials-heading h3 {
+  font-size: 28px;
+  letter-spacing: 0.186em;
+  font-weight: 600;
+  /* color: #434343; */
+  text-align: center;
+}
+
+.testi1 {
+  display: flex;
+  flex-direction: column;
+  /* color: #434343; */
+  font-size: 14px;
+  font-weight: 100;
+  font-style: italic;
+  flex-basis: 40%;
+  flex-wrap: wrap;
+  line-height: 1.8;
+  letter-spacing: 0.026em;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.testi1 img {
+  rotate: 180deg;
+}
+#testi1-name {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#testi-quotes {
+  height: 5vh;
+  width: 4vw;
+}
+
+/* ----------------------FOOTER---------------------*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.symbol1 {
+  display: flex;
+  letter-spacing: 0.283em;
+  margin: 0 0 20px 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 30px 0;
+}
+footer img {
+  width: 50px;
+  margin: 0 10px;
+  align-content: center;
+}
+
+footer p {
+  margin: 0 0 20px 0;
+  color: #5f5f5f;
+  font-size: 12px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px 0 0 0;
+  translate: 0% 250%;
+}
+.contact button {
+  width: 15vw;
+  height: 6vh;
+  background-color: transparent;
+  color: #5f5f5f;
+  border: solid 2px #5f5f5f;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  font-weight: 100;
+  font-style: italic;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background-color: #434343;
+  color: white;
+}
+.contact a:hover {
+  color: white;
+}
